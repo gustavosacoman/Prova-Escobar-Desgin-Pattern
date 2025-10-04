@@ -12,7 +12,7 @@ public class Main {
 
         FabricaTransporte fabricaAerea = new FabricaAerea();
         System.out.println(fabricaAerea.calcularFrete(50));
-
+        
         FabricaTransporte fabricaMaritima = new FabricaMaritima();
         System.out.println(fabricaMaritima.calcularFrete(50));
     }

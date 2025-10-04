@@ -4,6 +4,7 @@ import interfaces.Transporte;
 
 public class Terrestre implements Transporte {
 
+    // implementação do método calcularValor para transporte terrestre
     @Override
     public double calcularValor(double tipoCalculo) {
 
