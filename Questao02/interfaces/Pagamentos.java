@@ -1,5 +1,5 @@
 package interfaces;
 
 public interface Pagamentos {
-    void processarPagamento(double valor);
+    void realizarPagamento(double valor);
 }

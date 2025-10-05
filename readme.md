@@ -16,4 +16,6 @@
 
 - Eu escolhi utilizar o modelo factory novamente pois esse design pattern possiblita a criação dos meios de pagamento de forma genérica em que voce somente necessita instaciar a fabrica e aplicar o meio de pagamento correto, o programado não tem a necessidade de saber como funciona a regra de negócio que faz o pagamento. Decidi utilzar a service nesse exercicio pois nele havia a necessidade de um processador para poder utilizar os meios de pagamentos, entao chama-se a service para e a própria service orquestra as classes que sao enviadas, dando liberdade para o programador configure a classe que ele quer usar para a chamada de pagamento.
 
+- Link: [Questão 02](https://github.com/gustavosacoman/Prova-Escobar-Desgin-Pattern/tree/main/Questao02)
+
 ### Diagrama 02
