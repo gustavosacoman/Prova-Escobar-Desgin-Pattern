@@ -21,4 +21,8 @@
 
 ### Diagrama 02
 
+    ![Diagrama02](https://github.com/gustavosacoman/Prova-Escobar-Desgin-Pattern/blob/main/assets/Diagrama%20de%20classes%2002.png)
+
 - Link: [Diagrama](https://github.com/gustavosacoman/Prova-Escobar-Desgin-Pattern/blob/main/assets/Diagrama%20de%20classes%2002.png)
+
+ 
