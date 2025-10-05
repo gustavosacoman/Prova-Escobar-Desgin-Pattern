@@ -9,6 +9,7 @@
 
 ### Diagrama 01 
 
+- Link: [Diagrama](https://github.com/gustavosacoman/Prova-Escobar-Desgin-Pattern/blob/main/assets/Diagrama%20de%20classes%2001.png)
 
 ## Questao 02 - Factory
 
@@ -19,3 +20,5 @@
 - Link: [Questão 02](https://github.com/gustavosacoman/Prova-Escobar-Desgin-Pattern/tree/main/Questao02)
 
 ### Diagrama 02
+
+- Link: [Diagrama](https://github.com/gustavosacoman/Prova-Escobar-Desgin-Pattern/blob/main/assets/Diagrama%20de%20classes%2002.png)
