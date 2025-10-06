@@ -29,4 +29,16 @@
 
 - Link: [Diagrama](https://github.com/gustavosacoman/Prova-Escobar-Desgin-Pattern/blob/main/assets/Diagrama%20de%20classes%2002.png)
 
- 
+## Questao 03 - Observer
+
+### Justificativa
+
+- Eu escolhi utilizar o modelo observer, pois ele aplica exatamente aquilo que o cliente está pedindo que seria a possibilidade de enviar notificações para somente um grupo ao mesmo tempo, ou seja, o Subject vai observar a classe e ver se há alguma notificação quando aplicado o notifyObserver, entao todos que tem o observer sao notificados, a escolha da utilização do dicionario foi justamente para poder separar os usuarios em grupos, assim como é pedido pelo cliente, entao passo a chave Sports mais o user que implementa a interface observer, entao o subject lidaria com cada grupo.
+
+
+### Diagrama 03 
+
+![Diagrama02](https://github.com/gustavosacoman/Prova-Escobar-Desgin-Pattern/raw/main/assets/Diagrama%20de%20classes%2003.png)
+
+- Link: [Diagrama](https://github.com/gustavosacoman/Prova-Escobar-Desgin-Pattern/blob/main/assets/Diagrama%20de%20classes%2003.png)
+

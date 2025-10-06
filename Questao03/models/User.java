@@ -4,6 +4,8 @@ import interfaces.IABSObserver;
 import java.util.ArrayList;
 import java.util.List;
 
+// Implementação da interface IABSObserver
+// User que vai receber as notificações e envia-las para o console
 public class User implements IABSObserver {
     private String name;
     private List<String> topics = new ArrayList<>();

@@ -15,9 +15,15 @@ public class Main {
         Charlie.addTopic("Sports");
 
         Subject subject = new Subject();
-        subject.addObserver(Alice);
-        subject.addObserver(Bob);
-        subject.addObserver(Charlie);
+        for (String topic : Alice.getTopics()) {
+            subject.addObserver(topic, Alice);
+        }
+        for (String topic : Bob.getTopics()) {
+            subject.addObserver(topic, Bob);
+        }
+        for (String topic : Charlie.getTopics()) {
+            subject.addObserver(topic, Charlie);
+        }
 
         subject.notifyObservers("Sports", "Latest sports news!");
         subject.notifyObservers("Technology", "New tech trends!");
