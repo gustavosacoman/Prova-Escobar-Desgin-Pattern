@@ -1,10 +1,13 @@
+package models;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import interfaces.IABSObserver;
+
 public class Subject {
-    private Map<String, List<ABSObserver>> topicSubscribers = new HashMap<>();
+    private Map<String, List<IABSObserver>> topicSubscribers = new HashMap<>();
 
     public void addObserver(User user) {
         for (String userTopic : user.getTopics()) {
@@ -12,21 +15,20 @@ public class Subject {
         }
     }
 
-    public void removeObserver(String topic, ABSObserver observer, User user) {
+    public void removeObserver(User user) {
         for (String userTopic : user.getTopics()) {
-            if (userTopic.equals(topic)) {
-                List<ABSObserver> observers = topicSubscribers.get(userTopic);
+            
+                List<IABSObserver> observers = topicSubscribers.get(userTopic);
                 if (observers != null) {
-                    observers.remove(observer);
+                    observers.remove(user);
                 }
-            }
         }
     }
-    
+
     public void notifyObservers(String topic, String news) {
-        List<ABSObserver> observers = topicSubscribers.get(topic);
+        List<IABSObserver> observers = topicSubscribers.get(topic);
         if (observers != null) {
-            for (ABSObserver observer : observers) {
+            for (IABSObserver observer : observers) {
                 observer.update(news);
             }
         }

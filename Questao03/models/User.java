@@ -1,10 +1,12 @@
+package models;
 
+import interfaces.IABSObserver;
 import java.util.ArrayList;
 import java.util.List;
 
-public class User extends ABSObserver {
+public class User implements IABSObserver {
     private String name;
-    private List<String> topics = new ArrayList<String>();
+    private List<String> topics = new ArrayList<>();
 
     public User(String name) {
         this.name = name;
