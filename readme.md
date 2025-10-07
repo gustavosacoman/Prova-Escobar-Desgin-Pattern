@@ -1,5 +1,9 @@
 # Prova 01 Escobar
 
+### Description
+
+- Um Adento, quando for testar voce deve entrar na pasta das questoes para realizar os testes pois os objetos nao estao com package por questao.
+
 ## Questao 01 - Factory
 
 ### Justificativa: 
@@ -35,10 +39,25 @@
 
 - Eu escolhi utilizar o modelo observer, pois ele aplica exatamente aquilo que o cliente está pedindo que seria a possibilidade de enviar notificações para somente um grupo ao mesmo tempo, ou seja, o Subject vai observar a classe e ver se há alguma notificação quando aplicado o notifyObserver, entao todos que tem o observer sao notificados, a escolha da utilização do dicionario foi justamente para poder separar os usuarios em grupos, assim como é pedido pelo cliente, entao passo a chave Sports mais o user que implementa a interface observer, entao o subject lidaria com cada grupo.
 
+- Link: [Questão 03](https://github.com/gustavosacoman/Prova-Escobar-Desgin-Pattern/tree/main/Questao03)
 
 ### Diagrama 03 
 
 ![Diagrama02](https://github.com/gustavosacoman/Prova-Escobar-Desgin-Pattern/raw/main/assets/Diagrama%20de%20classes%2003.png)
 
 - Link: [Diagrama](https://github.com/gustavosacoman/Prova-Escobar-Desgin-Pattern/blob/main/assets/Diagrama%20de%20classes%2003.png)
+
+## Questao 04 - Decorator
+
+### Justificativa
+
+- Eu escolhi usar o decorator pois ele é um modelo que foi feito para adicionar novas funcionalidade sem alterar o objeto original que no caso aqui seria o Report, ele cria subClasses que podem ser utilizadas para adicionar mais coisas que era o que o cliente estava pedindo, um relatorio basico que pudesse ir acrescentando mais peças a ele conforme o desejo do cliente
+
+- Link: [Questão 04](https://github.com/gustavosacoman/Prova-Escobar-Desgin-Pattern/tree/main/Questao04)
+
+### Diagrama 04 
+
+![Diagrama02](https://github.com/gustavosacoman/Prova-Escobar-Desgin-Pattern/raw/main/assets/Diagrama%20de%20classes%2004.png)
+
+- Link: [Diagrama](https://github.com/gustavosacoman/Prova-Escobar-Desgin-Pattern/blob/main/assets/Diagrama%20de%20classes%2004.png)
 
