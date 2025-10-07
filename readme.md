@@ -2,7 +2,7 @@
 
 ### Description
 
-- Um Adento, quando for testar voce deve entrar na pasta das questoes para realizar os testes pois os objetos nao estao com package por questao.
+- Um Adendo, quando for testar voce deve entrar na pasta das questoes para realizar os testes pois os objetos nao estao com package por questao.
 
 ## Questao 01 - Factory
 
